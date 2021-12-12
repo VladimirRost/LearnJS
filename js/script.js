@@ -38,6 +38,7 @@ console.log(arr[2]);
 console.log(arr[3]);
 */
 
+/*
 let numberOfFilms;
 numberOfFilms = +prompt('Сколько фильмов вы видели?', '');
 
@@ -64,7 +65,7 @@ personalMovieDB.movies[lastFilm2] = lastReitong2;
 
 
 console.log (personalMovieDB);
-
+*/
 
 /*let movies = [];
 movies [0] = lastFilm;
@@ -77,5 +78,42 @@ movies [3] = lastReitong;
 
 console.log (movies[0],movies[1],movies[2],movies[3]);
 */
+//let a = 50;
+/*if (a) {
+console.log (`Ok`);
+}
+else {console.log (`Not Ok`);}
+*/
+
+//(a==49) ? console.log (`OK`) : console.log (`false`);
+
+/*let a = 49;
+
+switch (a) {
+    default: {
+        console.log(`Ничего не подошло`);
+    }
+    break;
+case 49: {
+    console.log(`49`);
+}
+break;
+case 50: {
+    console.log(`50`);
+}
+break;
+
+}
+*/
+
+let num = 50;
+while (num<=55){
+    console.log (num);
+    num ++;
+}
+
+for (let i=1; i<=8; i++){
+    console.log (`Значение `+i);
+}
 
 
